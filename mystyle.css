@@ -1,11 +1,22 @@
-.gameboard {
-    background-image:url("pic\death.png");
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display: flex;
+   background-color: lightgray;
+}
+.gamemap{
+    background-image: url("https://github.com/devapath89/my-new-project/blob/master/pic_uplode/6path.jpg?raw=true");
     width:600px;
     height: 600px;
     position:absolute
 
     
  } 
+
  image{
 width:600px;
 height:600px;
