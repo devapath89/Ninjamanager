@@ -1,5 +1,5 @@
 .gameboard {
-    background-image:("pic\death.jpg");
+    background-image:url("pic\death.png");
     width:600px;
     height: 600px;
     position:absolute
