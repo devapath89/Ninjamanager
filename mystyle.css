@@ -1,0 +1,97 @@
+.gameboard {
+    background-image:("pic\death.jpg");
+    width:600px;
+    height: 600px;
+    position:absolute
+
+    
+ } 
+ image{
+width:600px;
+height:600px;
+
+ }
+ .rows{
+    display: grid;
+	grid-template-columns: repeat(8,1fr);
+    position:relative;
+
+ }
+ .columns{
+    display:flex;
+    flex-wrap:nowrap;
+    
+    position:relative;
+
+ }
+
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#ten,
+#eleven,
+#twelve,
+#thirteen,
+#fourteen,
+#fifteen,
+#sixteen,
+#seventeen,
+#eighteen,
+#nineteen,
+#twenty,
+#twentyone,
+#twentytwo,
+#twentythree,
+#twentyfour,
+#twentyfive,
+#twentysix,
+#twentyseven,
+#twentyeight,
+#twentynine,
+#thirty,
+#thirtyone,
+#thirtytwo,
+#thirtythree,
+#thirtyfour,
+#thirtyfive,
+#thirtysix,
+#thirtyseven,
+#thirtyeight,
+#thirtynine,
+#forty,
+#fortyone,
+#fortytwo,
+#fortythree,
+#fortyfour,
+#fortyfive,
+#fortysix,
+#fortyseven,
+#fortyeight,
+#fortynine,
+#fifty,
+#fiftyone,
+#fiftytwo,
+#fiftythree,
+#fiftyfour,
+#fiftyfive,
+#fiftysix,
+#fiftyseven,
+#fiftyeight,
+#fiftynine,
+#sixtyone,
+#sixtytwo,
+#sixtythree,
+#sixtyfour,
+#sixtyfive{
+    width: 75px;
+    height:75px;
+	border: 1px solid red;
+	 position: relative;
+}
