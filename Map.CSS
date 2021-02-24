@@ -1,0 +1,14 @@
+.testDiv{
+    height: 50px;
+    width: 50px;
+    background-color: azure;
+    border: 2px solid black;
+    float: left;
+}
+.newLine{
+    clear:left;
+}
+
+.inventory{
+    border: 2px solid pink;
+}

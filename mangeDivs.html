@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .testDiv{
+            height: 50px;
+            width: 50px;
+            background-color: azure;
+            border: 2px solid black;
+            float: left;
+        }
+        .newLine{
+            clear:left;
+        }
+
+        .inventory{
+            border: 2px solid pink;
+        }
+    </style>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        var outputDiv = document.getElementById('output');
+
+        var inventory = ["stick", "sword", "wand", "torch"]; 
+        
+        makeDivs();
+        function makeDivs(){
+            let html = ``;
+            for(var i = 0; i <= 301; i++){
+                if(i % 12 == 0){
+                    html += `<div class="testDiv newLine"> ${i} </div>`
+                }
+                else{
+                    html += `<div class="testDiv" onclick="chooseDirection('up')"> ${i} </div>`
+                }
+                html += `<div class="inventory">`
+               for(item of inventory){
+                html += `${item}`; 
+               } 
+               html += `</div>`
+                
+            }
+            outputDiv.innerHTML = html;
+        }
+
+        function chooseDirection(chosenDirection){
+            if(chosenDirection == 'up'){
+                //do this
+            }
+            if(chosenDirection == 'down'){
+                //do that
+            }
+        }
+
+    </script>
+</body>
+</html>
